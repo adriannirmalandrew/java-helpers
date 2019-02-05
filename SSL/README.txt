@@ -11,3 +11,5 @@ Using the SSLSocketCreator:
 >	Then, the Creator is initialized with the truststore's password:
 	e.g. bar.initialize("letmein");
 >	Finally, call getSocket() to finally get an SSLSocket object.
+
+These two classes are used in my other project "tls_files", a simple file server.
